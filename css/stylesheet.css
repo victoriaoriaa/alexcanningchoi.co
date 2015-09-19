@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(background.png);
+    background-size: 100% ;
+    background-repeat: repeat-y;
+    background-position: top;
+}
+
+.center-box {
+    border: 1px solid white;
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+    background: rgba(0, 0, 0, .3);
+    color: white;
+    padding: 10px;
+}
+
